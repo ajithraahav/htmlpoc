@@ -11,14 +11,15 @@
 <body>
     <div class="container">
       <div class="top">
-        <img class="logo-img" src="/assets/yavar.png" alt="">
-        <img style="margin-left: 50px;" src="/assets/Vector-2.svg" alt="" id="btn">
+        <img class="logo-img" src="/assets/Yavar-ai 1.svg" alt="">
+        <img style="margin-left: 37px; cursor: pointer;" src="/assets/Vector-2.svg" alt="" id="btn">
         <div class="nav-bar">
             <div class="nav-bar-1 search">
               <label for="search"><i class="search-icon fa-solid fa-magnifying-glass"></i></label>
               <input type="search" name="search" id="" placeholder="Search">
             </div>
-              <i class="nav-bar-1 notification fa-solid fa-bell"></i>
+              <!-- <i class="nav-bar-1 notification fa-solid fa-bell"></i> -->
+              <img style="width: 36px;" class="nav-bar-1" src="/assets/Notification.svg" alt="">
               <div class="nav-bar-1 b-r"></div>
             <div class="nav-bar-1 user">
               <div>
@@ -29,13 +30,12 @@
                 <p class="sub-title">Super Admin</p>
               </div>
               <div>
-                <i style="padding:0px 20px; color: #828282;" class="fa-solid fa-angle-down"></i>                
+                <i style="padding-right: 14px; padding-left: 35px; color: #828282;" class="fa-solid fa-angle-down"></i>                
               </div>
             </div>
         </div>
       </div>
-    <div class="closed">
-      <div class="sidebar">
+      <nav class="sidebar">
         <ul>
           <li>
             <a href="#">
@@ -109,48 +109,74 @@
           </li>
           <li>
             <a href="#">
-              <i  class="icons fa-solid fa-arrow-right-from-bracket"></i>
-              <div  class="link-text">Sign Out</div>
+              <i style="color: #D11149;" class="icons fa-solid fa-arrow-right-from-bracket"></i>
+              <div style="color: #D11149;" class="link-text">Sign Out</div>
             </a>
           </li>
         </ul>
       </div>
-    </div>
       <div class="content">
         <div class="header">
           <i style="    
           color: #52b9ea;
           border: 3px solid #52b9ea;
           border-radius: 68%;
-          padding: 3px;
-          width: 12px;
-          height: 12px;" class="fa-solid fa-arrow-left"></i>
+          padding: 4px;
+          width: 13px;
+          height: 13px;" class="fa-solid fa-arrow-left"></i>
           <h1 class="heading" id="aba">Park Details</h1>
-          <input class="date-time" type="text" name="date" value="Choose Date & Time" onfocus="(this.type='date')">
-          <img src="/assets/akar-icons_calendar.svg" alt="">
+          <div class="date">
+            <p>Choose Date & Time</p>
+            <div class="b-l1"></div>
+            <img style="max-width: 10%;" src="/assets/akar-icons_calendar.svg" alt="">
+          </div>
+          <!-- <input class="date-time" type="text" name="date" value="Choose Date & Time" onfocus="(this.type='date')"> -->
+          <!-- <div class="b-l1"></div>
+          <img src="/assets/akar-icons_calendar.svg" alt=""> -->
         </div>
         <div class="main-content">
           <div class="graph1">
-            <h6 class="h61">Weekly Water Consumption (Full Network)</h6>
-            <p style="display: flex; align-items: center; font-size: 12px; font-weight: 600; color: #828282; margin-bottom: 10px;">Last Seen 30 Days <img style="margin-left: 10px;" src="/assets/Frame 2.svg" alt="" width="15px" height="15px"> </p>
+            <h6 class="h61">Weekly Water Consumption ( Full network )</h6>
+            <p style="display: flex; align-items: center; font-size: 12px; font-weight: 600; color: #828282; margin-bottom: 10px;">Last 30 Days <img style="
+              width: 4%;
+              height: 8%;
+              margin: 10px 10px 10px 12px;"
+              src="/assets/Frame 2.svg" alt="" width="15px" height="15px"></p>
             <img src="/Group 237326.png"alt="">
           </div>
+          <div style="margin: 10px;"></div>
           <div class="graph1">
-            <h6 class="h61">Map Water Consumption (Full Network)</h6>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d357834.2758434006!2d76.94778564743918!3d11.006633918256831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1649337905993!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h6 class="h61">Map Water Consumption ( Full network )</h6>
+            <img src="/Group 237317.png" alt="">
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d357834.2758434006!2d76.94778564743918!3d11.006633918256831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1649337905993!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
           </div>
         </div>
         <div class="main-content-1">   
-          <div class="graph2">
+          <div style="max-width: 26%;" class="graph2">
             <h6 class="h61">Daily Water Consumption (Full Network)</h6>
             <img src="/progress.png" alt="">
           </div>
-          <div class="graph2">
-            <h6 class="h61">Water usage and wastage</h6>
-            <img src="/1.png" alt="">
+          <div style="margin: 10px;"></div>
+          <div style="max-width: 41%;" class="graph2">
+            <h6 class="h61">Water usage and wastage<p style="background: white;
+              display: inline;
+              float: right;
+              padding: 4px 10px;
+              border-radius: 4px;
+              font-size: 8px;
+              border: 1px solid #e8e8e8;
+          ">Export</p></h6>
+            <div class="ch-img" style="float: left;">
+                <div class="dot"></div><p class="ch-txt">Usage</p>
+                <div class="dot" style="background: #52b9ca"></div><p class="ch-txt">Wastage</p>
+            </div>
+            
+            <img style="margin-top: 46px;" src="/graph2.jpeg" alt="">
           </div>
-          <div class="graph2">
+          <div style="margin: 10px;"></div>
+          <div style="max-width: 27%;" class="graph2">
             <h6 class="h61">Analytics</h6>
+            <img style="width: 5%; float: right;" src="/assets/Menu.svg" alt="">
             <img style="max-width: 77%; margin: -5% 11%;" src="/Group 237327.png" alt="">
             <div class="ch-img">
               <img src="/assets/Rectangle 77.svg" alt=""><p class="ch-txt">Usage</p>
@@ -162,13 +188,12 @@
         </div>
       </div>
     </div>
-    <script>
-            let btn = document.querySelector("#btn");
-            let sidebar = document.querySelector(".sidebar");
-
-            btn.onclick = function(){
-              sidebar.classicList.toggle = ("active");
-            }
+    <script type="text/javascript">
+            let menuClose = document.querySelector(".sidebar")
+            let closeBtn = document.querySelector(".toggle-btn")
+            closeBtn.addEventListener("toggle-btn", ()=> {
+                menuClose.classList.toggle(closed)
+            })
     </script>
     <script src="/all.min.js"></script>
 </body>
